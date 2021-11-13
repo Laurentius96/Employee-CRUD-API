@@ -1,0 +1,24 @@
+{
+  "name": "BlueEdTech_Employee-CRUD-API",
+  "version": "1.0.0",
+  "description": "Trabalho relacionado ao Projeto Final do Módulo 02 da BlueEdTech, esse que consiste na criação de um cadastro e funcionários usando aplicação CRUD API em Node.js que alimentará um frameworks",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laurentius96/BlueEdTech_Employee-CRUD-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laurentius96/BlueEdTech_Employee-CRUD-API/issues"
+  },
+  "homepage": "https://github.com/Laurentius96/BlueEdTech_Employee-CRUD-API#readme"
+}
