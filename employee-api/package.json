@@ -2,7 +2,7 @@
   "name": "BlueEdTech_Employee-CRUD-API",
   "version": "1.0.0",
   "description": "Trabalho relacionado ao Projeto Final do Módulo 02 da BlueEdTech, esse que consiste na criação de um cadastro e funcionários usando aplicação CRUD API em Node.js que alimentará um frameworks",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
@@ -17,14 +17,31 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Laurentius96/BlueEdTech_Employee-CRUD-API.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "api",
+    "crud",
+    "azure-functions",
+    "express",
+    "github-actions",
+    "swa",
+    "serverless",
+    "azure",
+    "postgresql",
+    "sql",
+    "javascript"
+  ],
+  "author": "Lorenzo Costa Bianchi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Laurentius96/BlueEdTech_Employee-CRUD-API/issues"
