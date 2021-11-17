@@ -9,8 +9,8 @@ const { Pool } = require("pg");
 const dotenv = require("dotenv");
 
 dotenv.config();
-// ==> Conexção com a Base de Dados:
 
+// ==> Conexão com a Base de Dados:
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
 });
@@ -21,7 +21,7 @@ pool.on("error", (err, client) => {
 });
 
 pool.on("connect", () => {
-  console.log("Base de Dados Conectado com Sucesso!");
+  console.log("Base de Dados conectada com sucesso!");
 });
 
 module.exports = {
